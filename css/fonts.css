@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: 'Dekar';
+  src: url('../font/Dekar.otf');
+  font-style: normal;
+  font-weight:normal;
+}
+@font-face {
+  font-family: 'Vollkorn-Italic';
+  src: url('../font/Vollkorn-Italic.ttf');
+  font-style: normal;
+  font-weight:600;
+}
+@font-face{
+	
+	font-family:'YanoneKaffeesatz-Bold';
+	src:url('../font/YanoneKaffeesatz-Bold.ttf');
+	font-style:normal;
+	font-weight:normal;
+	}
+@font-face{
+	
+	font-family:'Planer_Reg';
+	src:url('../font/Planer_Reg.ttf');
+	font-style:normal;
+	font-weight:normal;
+	}
+@font-face{
+	
+	font-family:'Oswald-Regular';
+	src:url('../font/Oswald-Regular.ttf');
+	font-style:italic;
+	font-weight:normal;
+	}		

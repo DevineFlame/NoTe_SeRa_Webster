@@ -1,0 +1,73 @@
+.backs{
+	background-image: url(../image/back5.jpg);
+
+}
+.no-margin{
+	margin: 0 0 0 0px;
+}
+.no-padding{
+	padding: 0 0 0 0px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+#smiling{
+
+	height: 283px;
+	width: 380px;
+}
+.colorit{
+	background-color: #00ff99;
+}
+img{
+	margin: 2%;
+}
+
+
+
+
+.modal-header,  .close {
+	background-color: #5cb85c;
+	color:white !important;
+	text-align: center;
+	font-size: 30px;
+}
+.modal-footer {
+	background-color: #f9f9f9;
+}
+#hide_header:after {
+	font-family: "Glyphicons Halflings";
+	content: "\e113";
+
+}
+#hide_header.collapsed:after {
+	content: "\e114";
+	}
+.affix{
+	top:20px;
+}
+
+.modal {
+	display:    none;
+	position:   fixed;
+	z-index:    1000;
+	top:        0;
+	left:       0;
+	height:     100%;
+	width:      100%;
+	background: rgba( 255, 255, 255, .8 )
+	url('../data/preloader.gif')
+	50% 50%
+	no-repeat;
+}
+
+body.loading {
+	overflow: hidden;
+}
+
+body.loading .modal {
+	display: block;
+}
