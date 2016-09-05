@@ -1,0 +1,63 @@
+{
+  "chart": {
+    "manageresize": "1",
+    "bgcolor": "FFFFFF",
+    "bgalpha": "0",
+    "showborder": "0",
+    "lowerlimit": "0",
+    "upperlimit": "100",
+    "showtickmarks": "0",
+    "showtickvalues": "0",
+    "showlimits": "0",
+    "numbersuffix": "%",
+    "decmials": "0",
+    "cylfillcolor": "CC0000",
+    "basefontcolor": "CC0000",
+    "chartleftmargin": "15",
+    "chartrightmargin": "15",
+    "charttopmargin": "15"
+  },
+  "value": "66",
+  "annotations": {
+    "groups": [
+      {
+        "showbelow": "2",
+        "items": [
+          {
+            "type": "rectangle",
+            "x": "$chartStartX+1",
+            "y": "$chartStartY+1",
+            "tox": "$chartEndX-1",
+            "toy": "$chartEndY-1",
+            "color": "FFFFFF",
+            "alpha": "100",
+            "showborder": "0",
+            "bordercolor": "CC0000",
+            "borderthickness": "2",
+            "radius": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "groups": [
+    {
+      "showbelow": "1",
+      "items": [
+        {
+          "type": "rectangle",
+          "x": "$chartStartX+1",
+          "y": "$chartStartY+1",
+          "tox": "$chartEndX-1",
+          "toy": "$chartEndY-1",
+          "color": "FF25FF",
+          "alpha": "100",
+          "showborder": "0",
+          "bordercolor": "CC0000",
+          "borderthickness": "2",
+          "radius": "10"
+        }
+      ]
+    }
+  ]
+}
