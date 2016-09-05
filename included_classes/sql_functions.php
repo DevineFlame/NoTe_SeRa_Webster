@@ -4,7 +4,7 @@ function sql_connect_m()
 {
 		$host="localhost";
 		$user="root";
-		$password="nowbanned";
+		$password="";
 		
 		$connection = mysql_connect($host,$user,$password,TRUE) or die("Server Sleeping.");
 		return 	$connection;
@@ -13,7 +13,7 @@ function sql_connect_u()
 {
 		$host="localhost";
 		$user="root";
-		$password="nowbanned";
+		$password="";
 		
 		$connection = mysql_connect($host,$user,$password,TRUE) or die("Server Sleeping.");
 		return 	$connection;

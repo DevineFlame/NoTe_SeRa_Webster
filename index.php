@@ -1,4 +1,3 @@
 <?php
-
-echo "hello";
+include_once 'uploads/header.php';
 ?>
